@@ -110,7 +110,7 @@ def test(model, optimizer, test_loader_numb):
 if __name__ == "__main__":
     
     # file in which results and models are saved
-    filename = 'job1'
+    filename = 'result'
     os.makedirs(filename)
     
     # hidden dimension and dimension of latent space
