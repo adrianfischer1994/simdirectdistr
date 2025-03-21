@@ -149,6 +149,6 @@ for(i in 1:10) {
   }
 }
 
-sink("gen_sph_fisherbingham.txt")
+sink("gen_sph.txt")
 cat(gen)
 sink()
