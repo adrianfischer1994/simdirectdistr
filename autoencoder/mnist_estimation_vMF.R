@@ -66,6 +66,6 @@ for(i in 1:10) {
   
 }
 
-sink("gen_vMF.txt")
+sink("gen_sph.txt")
 cat(gen)
 sink()
