@@ -8,7 +8,7 @@ Y <- list()
 
 for(i in 1:10) {
   
-  dat <- read.table(file=paste(c("filename",i-1,".txt"),collapse=""))
+  dat <- read.table(file=paste(c("result\\results",i-1,".txt"),collapse=""))
   dat <- apply(as.matrix.noquote(dat),2,as.numeric)
   
   d <- length(dat[1,])
