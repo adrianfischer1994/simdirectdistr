@@ -6,11 +6,11 @@ from autoencoder import ModelAE
 modelS = []
 
 for label in range(0,10):
-    modelS.append(torch.load('filename_modelS' + str(label)))
+    modelS.append(torch.load('result\\modelS' + str(label)))
     modelS[label].eval()
 
 
-file_read = open("filename_generated_numbers.txt", "r")
+file_read = open("gen_sph.txt", "r")
 file_write = open("num.txt", "w")
 
 firstline = True
