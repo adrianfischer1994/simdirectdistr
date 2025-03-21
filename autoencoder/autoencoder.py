@@ -1,4 +1,4 @@
-#Parts of this code is taken from https://github.com/nicola-decao/s-vae-pytorch/
+#Parts of this code are taken from https://github.com/nicola-decao/s-vae-pytorch/
 
 
 import os
